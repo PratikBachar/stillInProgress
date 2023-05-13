@@ -1,0 +1,15 @@
+.body{
+    margin-top: 40vh;
+    box-sizing: border-box ;
+}
+.blinking{
+    -moz-animation-timing-function: 0s blink ease infinite;
+}
+@-keyframes "blink" {
+    from, to {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+}
